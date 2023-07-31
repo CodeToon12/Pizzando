@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #411b57;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  .promociones-slider {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .promocion {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 10px;
+  }
+  
+  .promocion img {
+    width: 100%;
+  }
+  
+  .promocion p {
+    text-align: center;
+  }
+  
+  /* Aquí puedes agregar estilos para las otras secciones */
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Estilos del botón */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.colorful-button {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: #3498db;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.colorful-button:hover {
+  background-color: #2980b9;
+}
+
+.colorful-button:active {
+  background-color: #1f618d;
+}
+  
